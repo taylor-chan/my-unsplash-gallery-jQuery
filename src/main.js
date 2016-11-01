@@ -2,7 +2,7 @@
 * @Author: taochen
 * @Date:   2016-10-30 17:38:28
 * @Last Modified by:   taochen
-* @Last Modified time: 2016-11-01 18:50:46
+* @Last Modified time: 2016-11-01 19:09:19
 */
 
 require("./main.styl")
@@ -25,12 +25,7 @@ $.ajax({
   success: function(data) {
     buildImages(data)
   },
-  error: function() {
-
-  },
 })
-
-buildImages(data)
 
 $(".control svg").on("click", function(evt) {
   var $target = $(evt.target).closest("svg")
