@@ -48,7 +48,7 @@
 	* @Author: taochen
 	* @Date:   2016-10-30 17:38:28
 	* @Last Modified by:   taochen
-	* @Last Modified time: 2016-11-01 19:09:19
+	* @Last Modified time: 2016-11-01 19:39:04
 	*/
 
 	__webpack_require__(1)
@@ -147,7 +147,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  font-size: 18px;\n}\n.container {\n  width: 80%;\n  max-width: 1176px;\n  margin: auto;\n}\n.container > h1 {\n  text-align: center;\n  font-size: 3rem;\n}\n.photos-container > .control {\n  margin-bottom: 20px;\n  text-align: center;\n}\n.photos-container > .control > svg {\n  width: 20px;\n  fill: #808080;\n  margin: 0 10px;\n  cursor: pointer;\n  transition: fill 0.5s;\n}\n.photos-container > .control > svg:hover {\n  fill: #000;\n}\n.photos-container > .control > svg.active {\n  fill: #000;\n}\n.photo {\n  width: 100%;\n}\n.layout-list .photo {\n  margin-bottom: 20px;\n}\n.layout-grid {\n  display: flex;\n  align-items: flex-start;\n  flex-wrap: wrap;\n  margin: 20px 0;\n  justify-content: space-between;\n}\n.layout-grid .photo {\n  width: 375.95px;\n  margin: 20px 0;\n}\n", ""]);
+	exports.push([module.id, "body {\n  font-size: 18px;\n}\n.container {\n  width: 80%;\n  max-width: 1176px;\n  margin: auto;\n}\n.container > h1 {\n  text-align: center;\n  font-family: Comic Sans MS;\n  font-size: 3rem;\n}\n.photos-container > .control {\n  margin-bottom: 20px;\n  text-align: center;\n}\n.photos-container > .control > svg {\n  width: 20px;\n  fill: #808080;\n  margin: 0 10px;\n  cursor: pointer;\n  transition: fill 0.5s;\n}\n.photos-container > .control > svg:hover {\n  fill: #000;\n}\n.photos-container > .control > svg.active {\n  fill: #000;\n}\n.photo {\n  width: 100%;\n}\n.layout-list .photo {\n  margin-bottom: 20px;\n  border-radius: 20px;\n}\n.layout-grid {\n  display: flex;\n  align-items: flex-start;\n  flex-wrap: wrap;\n  margin: 20px 0;\n  justify-content: space-between;\n}\n.layout-grid .photo {\n  width: 375.95px;\n  margin: 20px 0;\n  border-radius: 10px;\n}\n", ""]);
 
 	// exports
 
